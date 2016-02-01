@@ -1,0 +1,27 @@
+*{font-family: "Lucida Sans";}
+.header {
+    background-color: #F0603E;
+}
+li
+{
+text-align:center;
+font-size:20px;
+color:#ffffff;
+}
+#a{
+font-size:13px;
+}
+#mid1{
+padding:15px;
+font-size:20px;
+}
+#mid2{
+    padding: 15px;
+}
+.footer {
+    background-color: #F0603E;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+	padding:10px;
+}

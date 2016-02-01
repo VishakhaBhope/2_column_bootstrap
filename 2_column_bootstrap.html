@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap 2 Responsive Layout Example</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="2_column_bs.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid  header">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img src="6.png" height="150" width="200" style="float=left;">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">       
+		<li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+		<li class="dropdown col-md-3">
+			<button class="dropdown-toggle btn-link center-block" type="button" data-toggle="dropdown" style="padding:10px;">Menu</button>
+			<ul class="dropdown-menu">
+			<li><a href="#" id="a">HTML5</a></li>
+			<li><a href="#" id="a">CSS3</a></li>
+			<li><a href="#" id="a">JavaScript</a></li>
+			<li><a href="#" id="a">Angular JS</a></li>
+			</ul>
+		</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-md-3 sidenav" id="mid1">
+      <p><a href="#">HTML</a></p>
+      <p><a href="#">CSS</a></p>
+      <p><a href="#">JavaScript</a></p>
+      <p><a href="#">AngularJS</a></p>
+    </div>
+    <div class="col-md-9 text-left text-justify" id="mid2"> 
+    <p><img src="logo2.jpg" height="150" width="150" align="left">HyperText Markup Language, commonly referred to as HTML, is the standard markup language 
+ used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user 
+ interfaces for web applications, and user interfaces for many mobile applications.[1] Web browsers can read HTML files and render them into visible or audible 
+ web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming 
+ language. HTML elements form the building blocks of all websites. HTML allows images and objects to be embedded and can be used to create interactive forms. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. The language is written in the form of HTML elements consisting of tags enclosed in angle brackets (like <html>). Browsers do not display the HTML tags and scripts, but use them to interpret the content of the page. HTML can embed scripts written in languages such as JavaScript which affect the behavior of HTML web pages. Web browsers can also refer to Cascading Style Sheets (CSS) to define the look and layout of text and other material.
+	</p>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center footer">
+  <p>More Information @w3schools.com</p>
+</footer>
+</body>
+</html>
